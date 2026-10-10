@@ -1,0 +1,14 @@
+# 构建 / 缓存残留
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
+
+# 体检产生的临时目录（demo 用）
+_demo/
