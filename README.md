@@ -1,4 +1,4 @@
-> 🕒 v1 · 2026-10-10 08:50 · dsh-agent ｜ 变更：初稿：说明、实测演示、支持类型、已知限制
+> 🕒 v2 · 2026-10-10 08:52 · dsh-agent ｜ 变更：加实测演示图（docs/demo.png） ｜ 上一版：v1 · 2026-10-10 08:50
 
 # dsh-artifact-stamp
 
@@ -57,6 +57,10 @@ python scripts/artifact_stamp.py strip <路径...> --dry-run
 | `strip` | 回滚：一键删掉所有戳行（`--dry-run` 先预览） |
 
 ## 实测演示
+
+![实测输出](docs/demo.png)
+
+> 上图是 `demo/` 里**真实跑出来的输出**的排版图（不是终端截屏；emoji 以文字替代）。
 
 ```
 $ python scripts/artifact_stamp.py new demo/design.md --note "初稿：设计笔记"
